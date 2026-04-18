@@ -1119,7 +1119,7 @@ ul { list-style: none; }
     z-index: 1000;
     backdrop-filter: blur(4px);
   }
-  .nav__overlay.active { display: block; }
+  
 
   .hero__title { font-size: clamp(2rem, 8vw, 2.8rem); }
   .hero__stats { gap: 16px; }
