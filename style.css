@@ -448,7 +448,7 @@ ul { list-style: none; }
 
 .hero__image-badge {
   position: absolute;
-  bottom: 28px; left: -24px;
+  bottom: 28px; left: -14px;
   background: var(--white);
   border-radius: var(--radius-md);
   padding: 12px 20px;
@@ -639,10 +639,11 @@ ul { list-style: none; }
 .sobre__image-wrap { position: relative; }
 
 .sobre__image-placeholder {
-  width: 100%;
+  width: 385px;
   aspect-ratio: 4/5;
-  border-radius: var(--radius-xl) 80px var(--radius-xl) var(--radius-xl);
-  background: linear-gradient(145deg, #D9ECEC, #EEF4F4);
+  height: 480px;
+  border-radius: var(--radius-xl) var(--radius-xl) var(--radius-xl) 80px;
+  background: linear-gradient(145deg, var(--primary-pale), #E8F0EF);
   border: 2px solid rgba(123, 172, 168, 0.2);
   display: flex;
   align-items: center;
@@ -651,6 +652,7 @@ ul { list-style: none; }
   position: relative;
   z-index: 1;
 }
+
 .sobre__accent-blob {
   position: absolute;
   width: 220px; height: 220px;
